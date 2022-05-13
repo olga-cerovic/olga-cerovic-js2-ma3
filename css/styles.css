@@ -1,0 +1,51 @@
+body {
+  max-width: 90%;
+  margin: auto;
+}
+
+ul {
+  margin-top: 0.8rem;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+li {
+  margin-right: 3rem;
+}
+
+input,
+.message.warning {
+  max-width: 400px;
+  /* margin-left: 0 !important; */
+}
+
+/* .col-form-label {
+  margin-right: 0 !important;
+} */
+
+.col-sm-2 {
+  width: 100%;
+}
+
+h1 {
+  margin-bottom: 3rem;
+}
+
+.btn-primary {
+  border: none;
+  background-color: teal;
+}
+
+.btn:hover {
+  /* border: none; */
+  background-color: #045d5d;
+}
+
+.message.warning {
+  padding: 0.7rem;
+  margin-bottom: 1rem;
+  border-radius: 0.3rem;
+  color: white;
+  background: orangered;
+}
