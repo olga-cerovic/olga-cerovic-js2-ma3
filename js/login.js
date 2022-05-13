@@ -46,7 +46,9 @@ async function doLogin(username, password) {
     console.log(json);
 
     if (json.user) {
-      displayMessage("success", "You are now logged in", ".message-container");
+      // displayMessage("success", "You are now logged in", ".message-container");
+
+      location.href = "/";
 
       saveToken(json.jwt);
       saveUser(json.user);
