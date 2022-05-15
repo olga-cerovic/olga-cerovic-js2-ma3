@@ -18,30 +18,11 @@ li {
 input,
 .message.warning {
   max-width: 400px;
-  /* margin-left: 0 !important; */
 }
-
-/* .col-form-label {
-  margin-right: 0 !important;
-} */
-
-/* .col-sm-2 {
-  width: 100%;
-} */
 
 h1 {
   margin: 3rem 0 3rem 0;
 }
-
-/* button {
-  border: none;
-  max-width: 400px;
-  border-radius: 0.3rem;
-  background-color: teal;
-}
-
-.btn:hover {
-  /* border: none; */
 
 .message.warning {
   padding: 0.7rem;
